@@ -37,7 +37,7 @@ trait Filterable
     /**
      * Prepare the metric for JSON serialization.
      *
-     * @return array
+     * @return mixed
      */
     public function jsonSerialize() :mixed
     {
